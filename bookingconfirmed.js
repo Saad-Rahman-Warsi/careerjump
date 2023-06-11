@@ -14,11 +14,10 @@ window.onload = function() {
 	var get_time = localStorage.getItem('time');
 	var get_appointment = localStorage.getItem('appointment');
 	var get_faculty = localStorage.getItem('faculty');
-	regid.innerText="Registration Id: "+get_regid;
-	cname.innerText="NAME: "+get_name;
-	appointment.innerText="Appointment: "+get_appointment;
-	faculty.innerText="Faculty: "+get_faculty;
-	date.innerText="Date: "+get_date;
-	time.innerText="Time: "+get_time;
-
+	regid.innerText=get_regid;
+	cname.innerText=get_name;
+	appointment.innerText=get_appointment;
+	faculty.innerText=get_faculty;
+	date.innerText=get_date;
+	time.innerText=get_time;
 }
